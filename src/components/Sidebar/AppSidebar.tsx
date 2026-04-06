@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Briefcase, LayoutDashboard, Bell, Settings, HelpCircle, ChevronDown, Search, Command } from 'lucide-react';
+import { Clock, Briefcase, LayoutDashboard, Bell, Settings, HelpCircle, ChevronDown, Search } from 'lucide-react';
 import { Avatar } from '../UI/Avatar';
 import type { Member } from '../../types';
 
@@ -34,7 +34,6 @@ export function AppSidebar({ currentUser, onSearch, searchValue }: Props) {
           value={searchValue}
           onChange={e => onSearch(e.target.value)}
         />
-        <span className="search-shortcut"><Command size={10} />K</span>
       </div>
 
       {/* General */}

@@ -310,4 +310,5 @@ supabase/
 - Anonymous auth is great for reducing friction, but named accounts and true multi-user collaboration would be better for a production product.
 - Realtime currently refetches task data after changes. A more selective cache update strategy would reduce network traffic.
 - The `attachments` table is present, but file upload and Supabase Storage are not fully wired into the UI yet.
+- Some product areas are already visually designed in the interface, including My Time, Notifications, Projects, My Work, Settings, and Help Center, but they are still placeholder surfaces. With more time, those would be the next features I would turn into fully working flows.
 - The app is strong on core board workflows, but it could go further with keyboard shortcuts, offline support, notifications, and richer analytics.
