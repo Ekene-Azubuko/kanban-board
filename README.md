@@ -11,8 +11,8 @@ The app is designed around a few core decisions:
 
 ## Links
 
-- Live frontend app: [https://your-live-app-url](https://your-live-app-url)
-- GitHub repository: [https://github.com/your-username/kanban-board](https://github.com/your-username/kanban-board)
+- Live frontend app: [https://kanban-board-one-jade.vercel.app/](https://kanban-board-one-jade.vercel.app/)
+- GitHub repository: [https://github.com/Ekene-Azubuko/kanban-board](https://github.com/Ekene-Azubuko/kanban-board)
 
 ## Tech Stack
 
@@ -103,8 +103,7 @@ How it works:
 - Optimistic UI updates for a snappier editing experience
 
 ## Database Schema
-
-The source-of-truth schema for this project lives in [supabase/migrations/20260405120000_init.sql](./supabase/migrations/20260405120000_init.sql) and can be applied to a hosted Supabase project with `supabase db push`. A readable SQL reference is also included in [SUPABASE_SETUP.md](./SUPABASE_SETUP.md). The database structure is:
+The database structure is:
 
 ### `members`
 
