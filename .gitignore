@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor / tooling
+.idea/
+.vscode/
+
+# Supabase local state
+supabase/.temp/
+supabase/.branches/
+
+# Local-only docs
+AGENTS.md
+SUPABASE_SETUP.md
